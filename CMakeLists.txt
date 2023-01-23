@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13.0)
 
-PROJECT(test)
+project(test VERSION 1.0.0 LANGUAGES C)
 #INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR})
 
 add_library ("${PROJECT_NAME}" STATIC )
